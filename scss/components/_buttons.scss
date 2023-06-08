@@ -22,6 +22,7 @@
 // BUTTON FOOTER
 
 .form__button {
+  display: block;
   background: var(--link-active-color);
   color: #fff;
   width: 200px;
@@ -33,6 +34,7 @@
   border: 0;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  margin-top: 20px;
   cursor: pointer;
 
   &:hover,
@@ -123,5 +125,14 @@
     color: #fff;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@media screen and (min-width: $mobile-breakpoint) {
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .form__button {
+    display: inline;
   }
 }

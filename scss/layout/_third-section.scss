@@ -1,12 +1,12 @@
 /* THIRD SECTION */
 
 .third-section {
-  padding-top: 0;
+  display: none;
 }
 
 .third-section-flex {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .thumb {
@@ -29,4 +29,18 @@
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: $mobile-breakpoint) {
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .third-section-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  .third-section {
+    display: block;
+    padding-top: 0;
+  }
 }

@@ -7,9 +7,13 @@
 
 .footer-flex {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  height: 251px;
+  justify-content: space-around;
+  height: 604px;
+}
+.nav {
+  text-align: center;
 }
 
 .nav__logo {
@@ -26,9 +30,9 @@
 .address {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   margin-top: 28px;
   text-decoration: none;
+  align-items: center;
   color: #ffffff;
   font-style: normal;
   font-weight: 400;
@@ -79,10 +83,8 @@
   }
 }
 
-.find_container {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+.find {
+  text-align: center;
 }
 
 .find__title {
@@ -96,6 +98,23 @@
   margin-bottom: 20px;
 }
 
+.find_container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.subscribe {
+  display: block;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .form__title {
   display: block;
   color: var(--social-icons--hover-color);
@@ -104,4 +123,39 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: $mobile-breakpoint) {
+  .footer-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 464px;
+  }
+  .subscribe {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .footer-flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 251px;
+    justify-content: space-evenly;
+  }
+  .address {
+    align-items: flex-start;
+  }
+  .nav {
+    text-align: left;
+  }
+  .find {
+    text-align: left;
+  }
+  .subscribe {
+    text-align: left;
+  }
+  .form {
+    display: block;
+  }
 }

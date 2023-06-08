@@ -2,7 +2,7 @@
 
 .customers {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
   gap: 30px;
   color: var(--social-mail-icons--normal-color);
 }
@@ -11,7 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 170px;
+  width: 210px;
   height: 92px;
   border: 1px solid var(--social-icons--normal-color);
   border-radius: 4px;
@@ -23,5 +23,19 @@
     cursor: pointer;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+@media screen and (min-width: $mobile-breakpoint) {
+  .customers__containers {
+    width: 226px;
+    height: 92px;
+  }
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .customers__containers {
+    width: 170px;
+    height: 92px;
   }
 }

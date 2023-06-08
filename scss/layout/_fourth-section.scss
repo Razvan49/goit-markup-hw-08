@@ -6,7 +6,8 @@
 
 .fourth-section-flex ul {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
   padding-left: 0;
   margin: 0;
 }
@@ -46,4 +47,20 @@
   gap: 10px;
   padding-top: 16px;
   padding-bottom: 0;
+}
+
+.ourteam__list img {
+  width: 450px;
+}
+
+@media screen and (min-width: $mobile-breakpoint) {
+  .ourteam__list img {
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .ourteam__list img {
+    width: 270px;
+  }
 }

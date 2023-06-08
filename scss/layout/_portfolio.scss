@@ -33,6 +33,7 @@
 }
 
 .portfolio {
+  width: 450px;
   border: 1px solid #eeeeee;
 
   &:hover {
@@ -102,4 +103,16 @@
   line-height: 28px;
   letter-spacing: 0.03em;
   color: var(--label-color);
+}
+
+@media screen and (min-width: $mobile-breakpoint) {
+  .portfolio {
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .portfolio {
+    width: 370px;
+  }
 }

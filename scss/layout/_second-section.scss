@@ -9,7 +9,8 @@
 
 .second-section-flex {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .advantage {
@@ -17,7 +18,7 @@
   justify-content: center;
   align-items: center;
   background-color: var(--light-gray-section-color);
-  width: 270px;
+  width: 450px;
   height: 120px;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -25,9 +26,42 @@
 
 .advantage__title {
   color: #212121;
+  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+.advantage__description {
+  display: block;
+  width: 450px;
+}
+
+@media screen and (min-width: $mobile-breakpoint) {
+  .advantage {
+    width: 354px;
+    height: 120px;
+  }
+  .advantage__title {
+    text-align: left;
+  }
+  .advantage__description {
+    display: block;
+    width: 354px;
+  }
+}
+
+@media screen and (min-width: $tablet-breakpoint) {
+  .advantage {
+    width: 270px;
+    height: 120px;
+  }
+  .advantage__title {
+    text-align: left;
+  }
+  .advantage__description {
+    display: block;
+    width: 270px;
+  }
 }
