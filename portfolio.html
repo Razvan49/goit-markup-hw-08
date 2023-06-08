@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- META | Folosite de browser si motoarele de cautare -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Mai întâi normalizarea -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <!-- Apoi stilurile -->
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <!-- TITLE | Acest portfolio__text o sa aparata in bara de sus a browserului (TAB) -->
+    <title>Web Studio Homework Project</title>
+  </head>
+  <body>
+    <!-- HEADER | Partea de sus a unui site -->
+    <header class="section global-header">
+      <div class="container container-header">
+        <div class="logo">
+          <a href="index.html" class="logo__link"><span class="logo__web">Web</span>Studio</a>
+        </div>
+        <div class="container-nav">
+          <nav class="filter">
+            <!-- Sectiunea nav, contine doar link-urile pentru navigatie -->
+            <!-- Vom adauga valoare pentru href atunci cand avem create si restul paginilor  -->
+            <!-- Link spre pagina acasa -->
+            <a href="./index.html" class="filter__link">Studio</a>
+            <a href="portfolio.html" class="filter__link">Portfolio</a>
+            <a href="Contacts" class="filter__link">Contacts</a>
+          </nav>
+          <ul class="contact">
+            <li>
+              <a href="info@devstudio.com" class="contact__mail"
+                ><svg><use href="./images/symbol-defs.svg#icon-mail"></use></svg>info@devstudio.com
+              </a>
+            </li>
+            <li>
+              <a href="tel:+12127724150" class="contact__phone"
+                ><svg><use href="./images/symbol-defs.svg#icon-smartphone"></use></svg>+1
+                212-772-4150</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- MAIN SECTION | Partea principala a site-ului nostru-->
+    <main>
+      <section class="section category-section">
+        <!-- CATEGORY SECTION | Aici sunt afisate rezultatele in functie de categoria selectata -->
+        <!-- FILTER SECTION | In aceasta sectiune putem selecta filtre prin apasarea 
+        butoanelor afisand  doar domeniile corespunzatoare filtrului sau toate domeniile prin apasarea 
+        butonului All-->
+        <section class="filter-buttons">
+          <div class="container">
+            <ul class="filter-section-flex category">
+              <li class="category__list">
+                <button class="category__button" type="button">All</button>
+              </li>
+              <li class="category__list">
+                <button class="category__button" type="button">Web-sites</button>
+              </li>
+              <li class="category__list">
+                <button class="category__button" type="button">Apps</button>
+              </li>
+              <li class="category__list">
+                <button class="category__button" type="button">Design</button>
+              </li>
+              <li class="category__list">
+                <button class="category__button" type="button">Marketing</button>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <div class="container">
+          <ul class="category-flex">
+            <li class="portfolio">
+              <div class="portfolio__thumb">
+                <img src="./images/portfolio/laptop.jpg" alt="Laptop image" width="370px" />
+                <div class="portfolio__overlay">
+                  <p class="portfolio__text">
+                    Technoduck is a state-of-the-art coronavirus distribution platform. Companies
+                    use this platform for digital espionage and attacks on competitors' secure
+                    servers.
+                  </p>
+                </div>
+              </div>
+              <div class="portfolio__item">
+                <p class="portfolio__title">Technoduck</p>
+                <em class="portfolio__service">Web-site</em>
+              </div>
+            </li>
+            <li class="portfolio">
+              <div class="portfolio__thumb">
+                <img
+                  src="./images/portfolio/basketball.jpg"
+                  alt="Poster New Orlean vs Golden Star"
+                  width="370px"
+                />
+                <div class="portfolio__overlay">
+                  <p class="portfolio__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste esse delectus,
+                    obcaecati debitis explicabo cum corrupti, a laboriosam unde officiis voluptate
+                    aliquam suscipit eveniet aliquid natus velit accusamus sequi quo.
+                  </p>
+                </div>
+              </div>
+              <div class="portfolio__item">
+                <p class="portfolio__title">Poster New Orlean vs Golden Star</p>
+                <em class="portfolio__service">Design</em>
+              </div>
+            </li>
+            <li class="portfolio">
+              <div class="portfolio__thumb">
+                <img
+                  src="./images/portfolio/seafood.jpg"
+                  alt="Seafood Restaurant Logo"
+                  width="370px"
+                />
+                <div class="portfolio__overlay">
+                  <p class="portfolio__text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis voluptas quas
+                    aperiam facere aut laboriosam unde sit fuga repellat, incidunt hic, corrupti eum
+                    perspiciatis sapiente accusantium deleniti repellendus quia modi?
+                  </p>
+                </div>
+              </div>
+              <div class="portfolio__item">
+                <p class="portfolio__title">Seafood Restaurant</p>
+                <em class="portfolio__service">Apps</em>
+              </div>
+            </li>
+            <li class="portfolio">
+              <div class="portfolio__thumb">
+                <img src="./images/portfolio/headphones.jpg" alt="Headphone image" width="370px" />
+                <div class="portfolio__overlay">
+                  <p class="portfolio__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste esse delectus,
+                    obcaecati debitis explicabo cum corrupti, a laboriosam unde officiis voluptate
+                    aliquam suscipit eveniet aliquid natus velit accusamus sequi quo.
+                  </p>
+                </div>
+              </div>
+              <div class="portfolio__item">
+                <p class="portfolio__title">Project Prime</p>
+                <em class="portfolio__service">Marketing</em>
+              </div>
+            </li>
+            <li class="portfolio">
+              <div class="portfolio__thumb">
+                <img src="./images/portfolio/box.jpg" alt="Two Boxes image" width="370px" />
+                <div class="portfolio__overlay">
+                  <p class="portfolio__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste esse delectus,
+                    obcaecati debitis explicabo cum corrupti, a laboriosam unde officiis voluptate
+                    aliquam suscipit eveniet aliquid natus velit accusamus sequi quo.
+                  </p>
+                </div>
+              </div>
+              <div class="portfolio__item">
+                <p class="portfolio__title">Project Boxes</p>
+                <em class="portfolio__service">Apps</em>
+              </div>
+            </li>
+            <li class="portfolio">
+              <div class="portfolio__thumb">
+                <img src="./images/portfolio/computer.jpg" alt="Computer image" width="370px" />
+                <div class="portfolio__overlay">
+                  <p class="portfolio__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste esse delectus,
+                    obcaecati debitis explicabo cum corrupti, a laboriosam unde officiis voluptate
+                    aliquam suscipit eveniet aliquid natus velit accusamus sequi quo.
+                  </p>
+                </div>
+              </div>
+              <div class="portfolio__item">
+                <p class="portfolio__title">Inspiration has no Borders</p>
+                <em class="portfolio__service">Web-site</em>
+              </div>
+            </li>
+            <li class="portfolio">
+              <div class="portfolio__thumb">
+                <img src="./images/portfolio/book.jpg" alt="a Book image" width="370px" />
+                <div class="portfolio__overlay">
+                  <p class="portfolio__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste esse delectus,
+                    obcaecati debitis explicabo cum corrupti, a laboriosam unde officiis voluptate
+                    aliquam suscipit eveniet aliquid natus velit accusamus sequi quo.
+                  </p>
+                </div>
+              </div>
+              <div class="portfolio__item">
+                <p class="portfolio__title">Limited Edition</p>
+                <em class="portfolio__service">Design</em>
+              </div>
+            </li>
+            <li class="portfolio">
+              <div class="portfolio__thumb">
+                <img src="./images/portfolio/letters.jpg" alt="Label image" width="370px" />
+                <div class="portfolio__overlay">
+                  <p class="portfolio__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste esse delectus,
+                    obcaecati debitis explicabo cum corrupti, a laboriosam unde officiis voluptate
+                    aliquam suscipit eveniet aliquid natus velit accusamus sequi quo.
+                  </p>
+                </div>
+              </div>
+              <div class="portfolio__item">
+                <p class="portfolio__title">Project LAB</p>
+                <em class="portfolio__service">Marketing</em>
+              </div>
+            </li>
+            <li class="portfolio">
+              <div class="portfolio__thumb">
+                <img src="./images/portfolio/tablet.jpg" alt="Table with keyboard image" />
+                <div class="portfolio__overlay">
+                  <p class="portfolio__text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste esse delectus,
+                    obcaecati debitis explicabo cum corrupti, a laboriosam unde officiis voluptate
+                    aliquam suscipit eveniet aliquid natus velit accusamus sequi quo.
+                  </p>
+                </div>
+              </div>
+              <div class="portfolio__item">
+                <p class="portfolio__title">Growing Business</p>
+                <em class="portfolio__service">Apps</em>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER | Partea de jos a unui site  -->
+    <footer class="section global-footer">
+      <div class="container footer-flex">
+        <div class="nav">
+          <a class="nav__logo" href="index.html">Web<span class="nav__studio">Studio</span></a>
+          <!-- ADDRESS | Adresa studioului -->
+          <address class="address">
+            <p class="address__street">695 Park Ave, NY 10065, USA</p>
+            <!-- INFO | Informatii contact -->
+            <div class="address__container">
+              <a class="address__link" href="info@devstudio.com">info@devstudio.com</a>
+            </div>
+            <div class="address__container">
+              <a class="phone-number" href="tel:+12127724150">+1 212-772-4150</a>
+            </div>
+          </address>
+        </div>
+        <div class="find">
+          <p class="find__title">Find us on</p>
+          <div class="find_container">
+            <a class="find__icons" href="https://instagram.com" aria-label="Instagram">
+              <svg>
+                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+            <a class="find__icons" href="https://twitter.com" aria-label="Twitter">
+              <svg>
+                <use href="./images/symbol-defs.svg#icon-twitter"></use>
+              </svg>
+            </a>
+            <a class="find__icons" href="https://facebook.com" aria-label="Facebook">
+              <svg>
+                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+            <a class="find__icons" href="https://linkedin.com" aria-label="LinkedIn">
+              <svg>
+                <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="subscribe">
+          <form class="form">
+            <label class="form__title">Subscribe to the newsletter</label>
+            <input class="form__input" type="email" name="E-mail" placeholder="E-mail" required />
+            <button class="form__button" type="submit">
+              <span>Subscribe</span
+              ><svg><use href="./images/symbol-defs.svg#icon-send-form"></use></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

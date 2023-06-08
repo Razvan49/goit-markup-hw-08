@@ -1,0 +1,22 @@
+:root {
+  // Font Family
+  --text-font-family: Roboto, sans-serif;
+
+  // Colors
+
+  --link-color: #212121;
+  --title-color: #212121;
+  --link-active-color: #2196f3;
+  --second-section-color: #757575;
+  --dark-gray-section-color: #2f303a;
+  --light-gray-section-color: #f5f4fa;
+  --social-icons--normal-color: #afb1b8;
+  --social-icons--hover-color: #fff;
+  --social-icons--background-color: #2196f3;
+  --social-mail-icons--normal-color: #757575;
+
+  // Transition
+
+  --label-color: #fff;
+  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

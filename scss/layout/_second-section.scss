@@ -1,0 +1,33 @@
+/* SECOND SECTION */
+
+.second-section {
+  color: var(--second-section-color);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.second-section-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-gray-section-color);
+  width: 270px;
+  height: 120px;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.advantage__title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}

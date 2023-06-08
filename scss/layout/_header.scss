@@ -1,0 +1,32 @@
+// HEADER STYLE
+.global-header {
+  padding: 24px 0;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+}
+
+.container-nav {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  position: relative;
+}
+
+.contact {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}

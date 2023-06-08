@@ -1,0 +1,32 @@
+/* THIRD SECTION */
+
+.third-section {
+  padding-top: 0;
+}
+
+.third-section-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.thumb {
+  text-align: center;
+  position: relative;
+}
+.thumb__label {
+  position: absolute;
+  background: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  padding: 27px;
+  top: 224px;
+  left: 0;
+  margin: 0;
+
+  color: var(--label-color);
+  text-align: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}

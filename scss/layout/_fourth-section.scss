@@ -1,0 +1,49 @@
+/* FOURTH SECTION  */
+
+.fourth-section {
+  background: var(--light-gray-section-color);
+}
+
+.fourth-section-flex ul {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  margin: 0;
+}
+
+.ourteam__list {
+  background: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.ourteam__info {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.ourteam__name {
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.ourteam__job {
+  color: var(--second-section-color);
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.ourteam__icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 16px;
+  padding-bottom: 0;
+}

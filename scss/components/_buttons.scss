@@ -1,0 +1,127 @@
+// BUTTON FIRST SECTION
+
+.request-button {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background: darken($color: #2196f3, $amount: 15);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+// BUTTON FOOTER
+
+.form__button {
+  background: var(--link-active-color);
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background: darken($color: #2196f3, $amount: 15);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+// BUTTON MODAL
+
+// CLOSE BUTTON
+.close-btn {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  outline: none;
+  cursor: pointer;
+  color: #000;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: var(--link-active-color);
+  }
+}
+
+// SEND BUTTON
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.send-button {
+  display: inline;
+  background: var(--link-active-color);
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 0;
+
+  &:focus,
+  &:hover {
+    background: #1075c8;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+// BUTON PORTFOLIO
+
+.category__button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    background: #2196f3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #fff;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
