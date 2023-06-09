@@ -430,24 +430,26 @@
     </div>
     <!-- MODAL MENIU -->
     <div class="menu-container js-menu-container">
-      <ul class="mobile-menu">
-        <button class="close-btn menu-toggle js-close-menu" data-modal-close>&times;</button>
-        <div>
-          <li><a href="" class="link">Studio</a></li>
-          <li><a href="" class="link">Portfolio</a></li>
-          <li><a href="" class="link">Contacts</a></li>
+      <div class="mobile-menu">
+        <button class="menu-close menu-toggle js-close-menu" data-modal-close>
+          <svg class="menu__icon--close">
+            <use href="./images/symbol-defs.svg#icon-close-menu"></use>
+          </svg>
+        </button>
+        <div class="menu__nav">
+          <a href="index.html" class="menu__link">Studio</a>
+          <a href="portfolio.html" class="menu__link">Portfolio</a>
+          <a href="" class="menu__link">Contacts</a>
         </div>
-        <div>
-          <li><a href="http://info@devstudio.com" class="link">info@devstudio.com</a></li>
-          <li><a href="tel:+12127724150" class="link">+1 212-772-4150</a></li>
-          <li>
-            <span>Instagram</span>
-            <span>Twitter</span>
-            <span>Facebook</span>
+        <div class="menu__contact">
+          <a href="tel:+12127724150" class="menu__link--phone">+1 212-772-4150</a>
+          <a href="http://info@devstudio.com" class="menu__link--mail">info@devstudio.com</a>
+          <div class="menu__social">
+            <span>Instagram</span> | <span>Twitter</span> | <span>Facebook</span> |
             <span>LinkedIn</span>
-          </li>
+          </div>
         </div>
-      </ul>
+      </div>
     </div>
     <script src="./js/modal.js" type="text/javascript"></script>
     <script src="./js/mobile-menu.js" type="text/javascript"></script>

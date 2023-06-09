@@ -20,9 +20,25 @@
   }
 }
 
+.menu-close {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
 .menu__icon {
   width: 24px;
   height: 16px;
+}
+.menu__icon--close {
+  width: 18px;
+  height: 18px;
 }
 
 // BUTTON FIRST SECTION
