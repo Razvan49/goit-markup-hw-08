@@ -1,0 +1,17 @@
+// <picture>
+// <!-- Desktop -->
+// <source
+//   media="(min-width:768px)"
+//   srcset="images\resized\team1-img-d.jpg, images\resized\team1-img-d@2x.jpg 2x"
+// />
+// <!-- Tablete -->
+// <source
+//   media="min-width:480px"
+//   srcset="images\resized\team1-img-t.jpg images\resized\team1-img-t@2x.jpg 2x"
+// />
+// <img
+//   src="images\resized\team1-img-m.jpg images\resized\team1-img-m@2x.jpg 2x"
+//   alt="Laptop apps"
+//   style="width: auto"
+// />
+// </picture>

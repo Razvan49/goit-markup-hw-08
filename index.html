@@ -130,15 +130,36 @@
           <h2>What we do</h2>
           <div class="third-section-flex">
             <div class="thumb">
-              <img src="images\laptop.jpg" alt="Laptop apps" width="370px" height="294px" />
+              <picture>
+                <!-- Desktop -->
+                <source
+                  media="(min-width:768px)"
+                  srcset="images\resized\laptop-img-d.jpg, images\resized\laptop-img-d@2x.jpg 2x"
+                />
+                <img src="images\resized\laptop-img-d.jpg" alt="Laptop apps" style="width: auto" />
+              </picture>
               <p class="thumb__label">DESKTOP APPS</p>
             </div>
             <div class="thumb">
-              <img src="images\mobile.jpg" alt="Mobile apps" width="370px" height="294px" />
+              <picture>
+                <!-- Desktop -->
+                <source
+                  media="(min-width:768px)"
+                  srcset="images\resized\mobile-img-d.jpg, images\resized\mobile-img-d@2x.jpg 2x"
+                />
+                <img src="images\resized\mobile-img-d.jpg" alt="Mobile apps" style="width: auto" />
+              </picture>
               <p class="thumb__label">Mobile APPS</p>
             </div>
             <div class="thumb">
-              <img src="images\tableta.jpg" alt="Tablet apps" width="370px" height="294px" />
+              <picture>
+                <!-- Desktop -->
+                <source
+                  media="(min-width:768px)"
+                  srcset="images\resized\tablet-img-t.jpg, images\resized\tablet-img-t@2x.jpg 2x"
+                />
+                <img src="images\resized\tablet-img-t.jpg" alt="Tablet apps" style="width: auto" />
+              </picture>
               <p class="thumb__label">DESIGN SOLUTIONS</p>
             </div>
           </div>
@@ -150,7 +171,33 @@
           <h2>Our Team</h2>
           <ul class="ourteam">
             <li class="ourteam__list">
-              <img src="images\Christopher.jpg" alt="Christopher Walker foto" />
+              <picture>
+                <!-- Desktop -->
+                <source
+                  media="(min-width:768px)"
+                  srcset="
+                    images\resized\Christopher-img-d.jpg,
+                    images\resized\Christopher-img-d@2x.jpg 2x
+                  "
+                />
+                <!-- Tablete -->
+                <source
+                  media="(min-width:480px)"
+                  srcset="
+                    images\resized\Christopher-img-t.jpg,
+                    images\resized\Christopher-img-t@2x.jpg 2x
+                  "
+                />
+                <!-- Mobile -->
+                <source
+                  media="(min-width:0px)"
+                  srcset="
+                    images\resized\Christopher-img-m.jpg,
+                    images\resized\Christopher-img-m@2x.jpg 2x
+                  "
+                />
+                <img src="/images/resized/Christopher-img-m.jpg" alt="Christopher Walker foto" />
+              </picture>
               <div class="ourteam__info">
                 <p class="ourteam__name">Christopher Walker</p>
                 <em class="ourteam__job">Product Designer</em>
@@ -179,7 +226,24 @@
               </div>
             </li>
             <li class="ourteam__list">
-              <img src="images\Kylie.jpg" alt="Kylie Evans foto" />
+              <picture>
+                <!-- Desktop -->
+                <source
+                  media="(min-width:768px)"
+                  srcset="images\resized\team2-img-d.jpg, images\resized\team2-img-d@2x.jpg 2x"
+                />
+                <!-- Tablete -->
+                <source
+                  media="(min-width:480px)"
+                  srcset="images\resized\team2-img-t.jpg, images\resized\team2-img-t@2x.jpg 2x"
+                />
+                <!-- Mobile -->
+                <source
+                  media="(min-width:0px)"
+                  srcset="images\resized\team2-img-m.jpg, images\resized\team2-img-m@2x.jpg 2x"
+                />
+                <img src="/images/resized/team2-img-m.jpg" alt="Kylie Evans foto" />
+              </picture>
               <div class="ourteam__info">
                 <p class="ourteam__name">Kylie Evans</p>
                 <em class="ourteam__job">Frontend Developer</em>
@@ -208,7 +272,24 @@
               </div>
             </li>
             <li class="ourteam__list">
-              <img src="images\Ryan.jpg" alt="Ryan Harris foto" />
+              <picture>
+                <!-- Desktop -->
+                <source
+                  media="(min-width:768px)"
+                  srcset="images\resized\team3-img-d.jpg, images\resized\team3-img-d@2x.jpg 2x"
+                />
+                <!-- Tablete -->
+                <source
+                  media="(min-width:480px)"
+                  srcset="images\resized\team3-img-t.jpg, images\resized\team3-img-t@2x.jpg 2x"
+                />
+                <!-- Mobile -->
+                <source
+                  media="(min-width:0px)"
+                  srcset="images\resized\team3-img-m.jpg, images\resized\team3-img-m@2x.jpg 2x"
+                />
+                <img src="/images/resized/team3-img-m.jpg" alt="Ryan Harris foto" />
+              </picture>
               <div class="ourteam__info">
                 <p class="ourteam__name">Ryan Harris</p>
                 <em class="ourteam__job">Marketing</em>
@@ -237,7 +318,24 @@
               </div>
             </li>
             <li class="ourteam__list">
-              <img src="images\Tyler.jpg" alt="Tyler Moore foto" />
+              <picture>
+                <!-- Desktop -->
+                <source
+                  media="(min-width:768px)"
+                  srcset="images\resized\team4-img-d.jpg, images\resized\team4-img-d@2x.jpg 2x"
+                />
+                <!-- Tablete -->
+                <source
+                  media="(min-width:480px)"
+                  srcset="images\resized\team4-img-t.jpg, images\resized\team4-img-t@2x.jpg 2x"
+                />
+                <!-- Mobile -->
+                <source
+                  media="(min-width:0px)"
+                  srcset="images\resized\team4-img-m.jpg, images\resized\team4-img-m@2x.jpg 2x"
+                />
+                <img src="/images/resized/team4-img-m.jpg" alt="Tyler Moore foto" />
+              </picture>
               <div class="ourteam__info">
                 <p class="ourteam__name">Tyler Moore</p>
                 <em class="ourteam__job">UI Designer</em>
