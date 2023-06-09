@@ -1,3 +1,30 @@
+// BUTTON MENU MOBILE
+
+.menu-button {
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: var(--menu-color);
+  border: none;
+  cursor: pointer;
+  background: none;
+
+  &:hover,
+  &:focus {
+    color: #2196f3;
+    background: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+.menu__icon {
+  width: 24px;
+  height: 16px;
+}
+
 // BUTTON FIRST SECTION
 
 .request-button {

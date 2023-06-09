@@ -23,6 +23,18 @@
         <div class="logo">
           <a href="index.html" class="logo__link"><span class="logo__web">Web</span>Studio</a>
         </div>
+        <div class="container-menu">
+          <button
+            type="button"
+            class="menu-button js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="menu__icon">
+              <use href="./images/symbol-defs.svg#icon-open-menu"></use>
+            </svg>
+          </button>
+        </div>
         <div class="container-nav">
           <nav class="filter">
             <!-- Sectiunea nav, contine doar link-urile pentru navigatie -->
@@ -416,6 +428,28 @@
         </div>
       </div>
     </div>
+    <!-- MODAL MENIU -->
+    <div class="menu-container js-menu-container">
+      <ul class="mobile-menu">
+        <button class="close-btn menu-toggle js-close-menu" data-modal-close>&times;</button>
+        <div>
+          <li><a href="" class="link">Studio</a></li>
+          <li><a href="" class="link">Portfolio</a></li>
+          <li><a href="" class="link">Contacts</a></li>
+        </div>
+        <div>
+          <li><a href="http://info@devstudio.com" class="link">info@devstudio.com</a></li>
+          <li><a href="tel:+12127724150" class="link">+1 212-772-4150</a></li>
+          <li>
+            <span>Instagram</span>
+            <span>Twitter</span>
+            <span>Facebook</span>
+            <span>LinkedIn</span>
+          </li>
+        </div>
+      </ul>
+    </div>
     <script src="./js/modal.js" type="text/javascript"></script>
+    <script src="./js/mobile-menu.js" type="text/javascript"></script>
   </body>
 </html>

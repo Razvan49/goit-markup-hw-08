@@ -1,5 +1,11 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-close-menu" viewBox="0 0 32 32">
+<path fill="currentColor" d="M31.439 3.166l-3.166-3.166-12.553 12.553-12.553-12.553-3.166 3.166 12.553 12.553-12.553 12.553 3.166 3.166 12.553-12.553 12.553 12.553 3.166-3.166-12.553-12.553 12.553-12.553z"></path>
+</symbol>
+<symbol id="icon-open-menu" viewBox="0 0 48 32">
+<path fill="currentColor" d="M0 5.333v-5.333h48v5.333h-48zM0 18.667h48v-5.333h-48v5.333zM0 32h48v-5.333h-48v5.333z"></path>
+</symbol>
 <symbol id="icon-check" viewBox="0 0 42 32">
 <path fill="currentColor" d="M6.4 15.36v0h-0.32l-3.2 2.56v0.32l0.32 0.32 11.2 10.56 0.32 0.32 0.32-0.32 24.32-23.36-0.32-0.32-2.88-2.56-0.32-0.32-0.64 0.32-20.8 20.16-8-7.68z"></path>
 </symbol>

@@ -8,6 +8,11 @@
 .container-header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+
+.container-menu {
+  display: flex;
 }
 
 .container-nav {
@@ -77,6 +82,9 @@
   .contact {
     flex-direction: column;
     gap: 10px;
+  }
+  .container-menu {
+    display: none;
   }
 }
 
