@@ -4,7 +4,7 @@
   background: var(--dark-gray-section-color);
   text-align: center;
   min-height: 100%;
-  background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(0deg, #2f303a66, rgba(47, 48, 58, 0.4)),
     url("/images/resized/hero-img-m.jpg");
   background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     image-set("/images/resized/hero-img-m.jpg" 1x, "/images/resized/hero-img-m@2x.jpg" 2x);
