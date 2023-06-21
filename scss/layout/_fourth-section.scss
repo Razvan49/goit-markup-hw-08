@@ -53,13 +53,13 @@
   width: 450px;
 }
 
-@media screen and (min-width: $mobile-breakpoint) {
+@media screen and (min-width: $tablet-breakpoint) {
   .ourteam__list img {
     width: 354px;
   }
 }
 
-@media screen and (min-width: $tablet-breakpoint) {
+@media screen and (min-width: $desktop-breakpoint) {
   .ourteam__list img {
     width: 270px;
   }

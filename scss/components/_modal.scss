@@ -158,9 +158,6 @@
   }
 }
 
-@media screen and (min-width: $mobile-breakpoint) {
-}
-
 @media screen and (min-width: $tablet-breakpoint) {
   .frame {
     width: 528px;
@@ -261,7 +258,7 @@
   margin-bottom: 48px;
 }
 
-@media screen and (min-width: $mobile-breakpoint) {
+@media screen and (min-width: $tablet-breakpoint) {
   .js-menu-container {
     display: none;
   }

@@ -31,10 +31,10 @@
   text-transform: uppercase;
 }
 
-@media screen and (min-width: $mobile-breakpoint) {
+@media screen and (min-width: $tablet-breakpoint) {
 }
 
-@media screen and (min-width: $tablet-breakpoint) {
+@media screen and (min-width: $desktop-breakpoint) {
   .third-section-flex {
     display: flex;
     justify-content: space-between;

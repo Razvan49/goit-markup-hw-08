@@ -125,7 +125,7 @@
   text-transform: uppercase;
 }
 
-@media screen and (min-width: $mobile-breakpoint) {
+@media screen and (min-width: $tablet-breakpoint) {
   .footer-flex {
     flex-direction: row;
     flex-wrap: wrap;
@@ -136,7 +136,7 @@
   }
 }
 
-@media screen and (min-width: $tablet-breakpoint) {
+@media screen and (min-width: $desktop-breakpoint) {
   .footer-flex {
     flex-direction: row;
     flex-wrap: wrap;

@@ -105,13 +105,13 @@
   color: var(--label-color);
 }
 
-@media screen and (min-width: $mobile-breakpoint) {
+@media screen and (min-width: $tablet-breakpoint) {
   .portfolio {
     width: 354px;
   }
 }
 
-@media screen and (min-width: $tablet-breakpoint) {
+@media screen and (min-width: $desktop-breakpoint) {
   .portfolio {
     width: 370px;
   }

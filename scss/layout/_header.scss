@@ -75,7 +75,7 @@
   }
 }
 
-@media screen and (min-width: $mobile-breakpoint) {
+@media screen and (min-width: $tablet-breakpoint) {
   .container-nav {
     display: flex;
   }
@@ -88,7 +88,7 @@
   }
 }
 
-@media screen and (min-width: $tablet-breakpoint) {
+@media screen and (min-width: $desktop-breakpoint) {
   .container-nav {
     display: flex;
   }

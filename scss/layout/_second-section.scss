@@ -38,7 +38,7 @@
   width: 450px;
 }
 
-@media screen and (min-width: $mobile-breakpoint) {
+@media screen and (min-width: $tablet-breakpoint) {
   .advantage {
     width: 354px;
     height: 120px;
@@ -52,7 +52,7 @@
   }
 }
 
-@media screen and (min-width: $tablet-breakpoint) {
+@media screen and (min-width: $desktop-breakpoint) {
   .advantage {
     width: 270px;
     height: 120px;

@@ -1,7 +1,7 @@
 // GLOBAL
 
 .container {
-  max-width: 480px;
+  width: 480px;
   margin: auto;
   padding: 0 15px;
 }
@@ -16,9 +16,9 @@
   margin-bottom: 40px;
 }
 
-@media screen and (min-width: $mobile-breakpoint) {
+@media screen and (min-width: $tablet-breakpoint) {
   .container {
-    max-width: 768px; /* Maximul pentru tableta */
+    width: 768px; /* Maximul pentru tableta */
   }
   .section {
     width: 768px; /* Maximul pentru tableta */
@@ -31,9 +31,9 @@
   }
 }
 
-@media screen and (min-width: $tablet-breakpoint) {
+@media screen and (min-width: $desktop-breakpoint) {
   .container {
-    max-width: 1200px; /* Maximul pentru desktop */
+    width: 1200px; /* Maximul pentru desktop */
   }
   .section {
     width: 1600px; /* Maximul pentru desktop */
